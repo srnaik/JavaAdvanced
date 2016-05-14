@@ -25,11 +25,18 @@ public class JavaGenerics {
 		generics.intArray[2] = 3;
 		
 		generics.stringArray = new String[2];
+		
 		generics.stringArray[0] = "Hello";
 		generics.stringArray[1] = "World";
 		
+		generics.doubleArray = new Double[2];
+		
+		generics.doubleArray[0] = 1.0;
+		generics.doubleArray[1] = 2.0;
+		
 		generics.printArray(generics.intArray);
 		generics.printArray(generics.stringArray);
+		generics.printArray(generics.doubleArray);
 		
 	}
 	
