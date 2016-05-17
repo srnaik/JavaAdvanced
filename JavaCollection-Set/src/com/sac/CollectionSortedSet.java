@@ -19,8 +19,6 @@ public class CollectionSortedSet {
 		sortedTreeSet.add(34);
 		sortedTreeSet.add(12);
 		sortedTreeSet.add(18);
-	
-		
 		
 		for (Integer integer : sortedTreeSet) {
 			System.out.println(integer);
