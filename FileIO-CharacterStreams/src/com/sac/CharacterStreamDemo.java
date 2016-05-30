@@ -22,6 +22,7 @@ public class CharacterStreamDemo {
 			while((charStream = fileReader.read()) != -1){
 				System.out.println(charStream);
 				fileWriter.write(charStream);
+				
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
